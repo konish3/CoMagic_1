@@ -1,0 +1,35 @@
+.content {
+  background-color: #e0e7ff;
+  border: 2px 4px 6px 2px solid #818cf8;
+  box-shadow: 8px 8px #818cf8, -4px 0 #818cf8, 0 -4px #818cf8, -4px -4px #818cf8;
+}
+
+.fields {
+  padding: 40px 15px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 300px;
+}
+
+input,
+textarea {
+  padding: 10px 10px;
+  font-size: 16px;
+  color: black;
+
+  border-radius: 5px;
+  border: 1px solid #818cf8;
+}
+
+input {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  padding-left: 15px;
+}

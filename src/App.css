@@ -1,0 +1,54 @@
+.main {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+}
+.date {
+  font-size: 76px;
+  color: #1e1b4b;
+
+  padding: 10px 50px;
+  margin-bottom: 30px;
+
+  border: 1px solid #1e1b4b;
+  border-radius: 10px;
+  background-color: #e0e7ff;
+  backdrop-filter: blur(5px);
+}
+.relative {
+  position: relative;
+}
+.content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.balls {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.pink {
+  width: 164px;
+}
+.blue {
+  width: 296px;
+}
+.green {
+  width: 164px;
+  margin-top: 115px;
+}

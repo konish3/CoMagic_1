@@ -1,0 +1,14 @@
+.list {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item {
+  line-height: 30px;
+}
+.interesting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

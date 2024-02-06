@@ -1,0 +1,24 @@
+.response {
+  background-color: #e0e7ff;
+  border: 2px 4px 6px 2px solid #818cf8;
+  box-shadow: 8px 8px #818cf8, -4px 0 #818cf8, 0 -4px #818cf8, -4px -4px #818cf8;
+
+  max-width: 1000px;
+}
+
+.content {
+  padding: 50px 40px;
+}
+
+.data {
+  margin: 20px 0 40px 0;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  padding: 10px 0;
+}
